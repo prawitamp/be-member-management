@@ -12,7 +12,13 @@ app.get("/", (req, res) => {
 });
 
 app.use("/v1", indexRoutes);
-app.use(cors());
+app.use(cors({
+  origin: [
+    "http://localhost:5502",
+    "http://localhost:3004",
+  ],
+})
+);
 
 const PORT = process.env.PORT || 3004;
 app.listen(PORT, () => {
