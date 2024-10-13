@@ -59,7 +59,7 @@
 
 # How To Use
 * ### Members ###
-  URL Local Route: `http://localhost:3004/v1/getAllMembers/`
+  URL Local Route: `http://localhost:3004/v1/getAllMembers`
   
   Production URL Route: `https://be-pengelolaan-anggota.vercel.app/v1/getAllMembers`
 * **[GET]** Get All Members
@@ -196,6 +196,7 @@
     }
     ```
 * **[DELETE]** Delete Specific Member
+  
   URL Local Route: `http://localhost:3004/v1/deleteMember/{id}`
   
   Production URL Route: `https://be-pengelolaan-anggota.vercel.app/v1/deleteMember/{id}`
