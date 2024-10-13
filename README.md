@@ -43,7 +43,7 @@
   <p> git clone <a href="https://github.com/prawitamp/be-pengelolaan-anggota.git"><strong>Github</strong></a> <p>
   <p>cd be-pengelolaan-anggota</p>
 
-- <p>Instal Dependencies</p>
+- <p>Dependencies Installation</p>
   <p>This project has several dependencies that must be installed using npm:<p>
   <p>npm install @prisma/client cloudinary cors dotenv express multer nodemon vercel<p>
 
@@ -162,6 +162,8 @@
   
   Production URL Route: `https://be-pengelolaan-anggota.vercel.app/v1/updateMember/{id}`
 * **[POST]** Update Member
+
+    Additional Route: `<:id>`
 
     Request:
     ```json
