@@ -28,35 +28,34 @@
 
 # Key Features
 - <p>Member Data CRUD</p>
-<p>  Upload profile images or documents using Cloudinary, which are then stored in the cloud. <p>
+  <p>  Add, retrieve, update, and delete community member data. <p>
 
 - <p>File Upload</p>
-<p> Download the APK
-Install the APK <p>
+  <p> Upload profile images or documents using Cloudinary, which are then stored in the cloud. <p>
 
 - <p>Data Storage</p>
-<p> Member data is stored in a MongoDB Atlas database, making it easy to access and manage. <p>
+  <p> Member data is stored in a MongoDB Atlas database, making it easy to access and manage. <p>
 
 # Installation
 <p>To run this project locally, follow the steps below:</p>
 
 - <p>Clone Repository</p>
-<p> git clone <a href="https://github.com/prawitamp/be-pengelolaan-anggota.git"><strong>Github</strong></a> <p>
-<p>cd be-pengelolaan-anggota</p>
+  <p> git clone <a href="https://github.com/prawitamp/be-pengelolaan-anggota.git"><strong>Github</strong></a> <p>
+  <p>cd be-pengelolaan-anggota</p>
 
 - <p>Instal Dependencies</p>
-<p>This project has several dependencies that must be installed using npm:<p>
-<p>npm install @prisma/client cloudinary cors dotenv express multer nodemon vercel<p>
+  <p>This project has several dependencies that must be installed using npm:<p>
+  <p>npm install @prisma/client cloudinary cors dotenv express multer nodemon vercel<p>
 
 
 - <p>Configure Environment</p>
-<p> Create a .env file and add the following variables: <p>
-<p>CLOUDINARY_URL=your-cloudinary-url</p>
-<p>MONGO_URI=your-mongodb-url</p>
+  <p> Create a .env file and add the following variables: <p>
+  <p>CLOUDINARY_URL=your-cloudinary-url</p>
+  <p>MONGO_URI=your-mongodb-url</p>
 
 - <p>Run Application</p>
-<p> Use nodemon to run the server: <p>
-<p>npm run dev</p>
+  <p> Use nodemon to run the server: <p>
+  <p>npm run dev</p>
 
 # How To Use
 * ### Members ###
