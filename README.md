@@ -135,8 +135,10 @@
       "image_url": "upload file"
     }
     ```
+    
     Response:
-    ```{
+    ```json
+    {
     "status": "success",
     "message": "Post created successfully",
     "data": {
@@ -153,9 +155,7 @@
         "created_at": "2024-10-13T02:48:30.527Z",
         "updated_at": "2024-10-13T02:48:30.527Z"
     }
-
     ```
-
 
 * ### Update Member ###
   URL Local Route: `http://localhost:3004/v1/updateMember/{id}`
