@@ -162,6 +162,11 @@ const updateMember = async (req, res) => {
       image_url = result.secure_url;
     }
 
+    // Parsing hobbies jika dikirim sebagai string JSON
+    let parsedHobbies = hobbies;
+    if (typeof hobbies === "string") {
+      parsedHobbies = JSON.parse(hobbies);
+    }
 
     // Data yang akan diperbarui
     const data = {
@@ -169,7 +174,7 @@ const updateMember = async (req, res) => {
       placeOfBirth,
       birth_date: new Date(birth_date), // Pastikan format date sesuai
       address,
-      hobbies,
+      hobbies: parsedHobbies, // Gunakan array string
       image_url,
     };
 
