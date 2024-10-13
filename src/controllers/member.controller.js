@@ -162,11 +162,6 @@ const updateMember = async (req, res) => {
       image_url = result.secure_url;
     }
 
-    // Parsing hobbies jika dikirim sebagai string JSON
-    let parsedHobbies = hobbies;
-    if (typeof hobbies === "string") {
-      parsedHobbies = JSON.parse(hobbies);
-    }
 
     // Data yang akan diperbarui
     const data = {

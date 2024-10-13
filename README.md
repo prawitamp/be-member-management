@@ -189,8 +189,7 @@ URL Route: `https://be-pengelolaan-anggota.vercel.app/v1/updateMember/`
         "address": "cilegon",
         "phoneNumber": "08912345678",
         "hobbies": [
-            "singing",
-            "acting"
+            "singing"
         ],
         "image_url": "https://res.cloudinary.com/ddx9ksc0h/image/upload/v1728788617/members/czdohvgva7muafe6pphg.jpg",
         "created_at": "2024-10-13T02:48:30.527Z",
