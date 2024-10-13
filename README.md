@@ -211,17 +211,17 @@
     "status": "success",
     "message": "Member deleted successfully",
     "data": {
-        "id": "6709f0084b82894060ccc005",
-        "name_member": "luqmann",
-        "placeOfBirth": "jepang",
-        "birth_date": "2003-01-05T17:00:00.000Z",
-        "address": "bap 1",
-        "phoneNumber": "08973333244",
+        "id": "670a2a2c0a2da1840ffd92f6",
+        "name_member": "ariel",
+        "placeOfBirth": "citeras",
+        "birth_date": "2000-04-04T00:00:00.000Z",
+        "address": "jakarta",
+        "phoneNumber": "089823455675",
         "hobbies": [
-            "mancing"
+            "ngoding"
         ],
-        "image_url": "https://res.cloudinary.com/ddx9ksc0h/image/upload/v1728704522/images/memberImages/lgol1cqqfuowdsj0mx71.jpg",
-        "created_at": "2024-10-12T03:41:58.709Z",
-        "updated_at": "2024-10-12T03:41:58.709Z"
+        "image_url": "https://res.cloudinary.com/ddx9ksc0h/image/upload/v1728719404/images/memberImages/tjtt7qg8zvywx5xwklvq.jpg",
+        "created_at": "2024-10-12T07:50:04.875Z",
+        "updated_at": "2024-10-12T07:50:04.875Z"
     }
     ```
