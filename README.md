@@ -1,7 +1,5 @@
 # Final Project-Web Development-Surosowan Cyber Academy Batch 3
-<h1 align="center">Journey</h1>
-  <h2 align="center">
-  Member Management</h2>
+<h1 align="center">Member Management</h1>
   
   <p align="center">
   This is a project to fulfill the  <a href="https://surosowancyber.or.id//"><strong>Surosowan Cyber Academy</strong></a>
