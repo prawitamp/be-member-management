@@ -59,9 +59,9 @@
 
 # How To Use
 * ### Members ###
-URL Local Route: `http://localhost:3004/v1/getAllMembers/`
-
-URL Route: `https://be-pengelolaan-anggota.vercel.app/v1/getAllMembers`
+  URL Local Route: `http://localhost:3004/v1/getAllMembers/`
+  
+  Production URL Route: `https://be-pengelolaan-anggota.vercel.app/v1/getAllMembers`
 * **[GET]** Get All Members
     
     Response:
@@ -87,9 +87,9 @@ URL Route: `https://be-pengelolaan-anggota.vercel.app/v1/getAllMembers`
         },
     ```
 * ### Member By Id ###
-URL Local Route: `http://localhost:3004/v1/getMemberById/`
-
-URL Route: `https://be-pengelolaan-anggota.vercel.app/v1/getMemberById/`
+  URL Local Route: `http://localhost:3004/v1/getMemberById/{id}`
+  
+  Production URL Route: `https://be-pengelolaan-anggota.vercel.app/v1/getMemberById/{id}`
 
 * **[GET]** Get Specific Member
   
@@ -117,9 +117,9 @@ URL Route: `https://be-pengelolaan-anggota.vercel.app/v1/getMemberById/`
     }
     ```
 * ### Create Member ###
-URL Local Route: `http://localhost:3004/v1/createMember`
-
-URL Route: `https://be-pengelolaan-anggota.vercel.app/v1/createMember`
+  URL Local Route: `http://localhost:3004/v1/createMember`
+  
+  Production URL Route: `https://be-pengelolaan-anggota.vercel.app/v1/createMember`
 * **[POST]** Create Member
 
 
@@ -158,9 +158,9 @@ URL Route: `https://be-pengelolaan-anggota.vercel.app/v1/createMember`
 
 
 * ### Update Member ###
-URL Local Route: `http://localhost:3004/v1/updateMember`
-
-URL Route: `https://be-pengelolaan-anggota.vercel.app/v1/updateMember/`
+  URL Local Route: `http://localhost:3004/v1/updateMember/{id}`
+  
+  Production URL Route: `https://be-pengelolaan-anggota.vercel.app/v1/updateMember/{id}`
 * **[POST]** Update Member
 
     Request:
@@ -171,7 +171,7 @@ URL Route: `https://be-pengelolaan-anggota.vercel.app/v1/updateMember/`
       "birth_date": "1990/07/07"
       "address": "cilegon"
       "phoneNumber": "08234567811222"
-      "hobbies": ["singing", "acting"]
+      "hobbies": ["singing"]
       "image_url": "upload file"
     }
     ```
@@ -196,10 +196,9 @@ URL Route: `https://be-pengelolaan-anggota.vercel.app/v1/updateMember/`
     }
     ```
 * **[DELETE]** Delete Specific Member
-
-URL Local Route: `http://localhost:3004/v1/deleteMember`
-
-URL Route: `https://be-pengelolaan-anggota.vercel.app/v1/deleteMember/`
+  URL Local Route: `http://localhost:3004/v1/deleteMember/{id}`
+  
+  Production URL Route: `https://be-pengelolaan-anggota.vercel.app/v1/deleteMember/{id}`
 * **[DELETE]** Delete Member
   
     Additional Route: `<:id>`
