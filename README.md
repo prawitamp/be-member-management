@@ -22,7 +22,7 @@
 <br>
 
 # About The Project
-<p>Member Management is an API-based application used to manage community member data. This application includes features such as adding, editing, deleting, and retrieving member data. Uploaded member data, including files, will be stored in Cloudinary and MongoDB Atlas database. This application supports backend to frontend. </p>
+<p>Member Management is an API-based application used to manage community member data. This application includes features such as adding, editing, deleting, and retrieving member data. Uploaded member data, including files, will be stored in Cloudinary and MongoDB Atlas database. </p>
 
 <br>
 
