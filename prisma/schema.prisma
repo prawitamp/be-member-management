@@ -22,7 +22,7 @@ model communityMember {
   birth_date   DateTime // Mengganti dari 'dateOfBirth' menjadi 'birth_date'
   address      String
   phoneNumber  String
-  hobbies      String
+  hobbies      String[]
   image_url    String
   created_at   DateTime @default(now())
   updated_at   DateTime @updatedAt
