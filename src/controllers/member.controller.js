@@ -174,7 +174,7 @@ const updateMember = async (req, res) => {
       placeOfBirth,
       birth_date: new Date(birth_date), // Pastikan format date sesuai
       address,
-      hobbies: parsedHobbies, // Gunakan array string
+      hobbies,
       image_url,
     };
 
